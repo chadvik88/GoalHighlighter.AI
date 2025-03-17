@@ -3,7 +3,7 @@ This project detects and extracts goal highlights from football match videos usi
 
 ## Features:
 - YOLOv5-based ball detection
-- EasyOCR scoreboard text detection
+- EasyOCR/ONNX scoreboard text detection
 - Librosa crowd cheer detection (Tesseract can also be used)
 - Automatic highlight extraction and merging with FFmpeg
 
