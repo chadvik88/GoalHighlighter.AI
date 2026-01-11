@@ -19,14 +19,6 @@ GoalHighlighter.AI is a cutting-edge system designed to automatically detect goa
 - **Optimized for CPU Performance**  
   Pipeline optimized for frame-level inference on Intel UHD Graphics. Frame sampling and batch processing reduce computational load, with GPU/CUDA acceleration planned for future real-time deployment.
   
-## Technical Highlights
-
-- **Object Detection:** YOLOv5, motion blur & occlusion handling  
-- **OCR:** Scoreboard tracking and temporal alignment  
-- **Audio Analysis:** STFT, energy envelope detection, crowd cheer identification  
-- **Fusion Logic:** Multi-modal integration for high precision  
-- **Performance Optimization:** CPU-bound inference with batch processing; scalable to GPU
-- 
 ## How It Works
 
 1. Input full match video → Extract frames and audio  
@@ -40,10 +32,18 @@ GoalHighlighter.AI is a cutting-edge system designed to automatically detect goa
 ## Application Screenshots
 
 <p align="center">
-  <img src="images/goalsie1.jpeg" width="450"/>
-  <img src="images/goalsie1 (2).jpeg" width="450"/>
-  <img src="images/goalsie2(2).jpeg" width="450"/>
+  <img src="images/goalsie1.png" width="450"/>
+  <img src="images/goalsie1 (2).png" width="450"/>
+  <img src="images/goalsie2(2).png" width="450"/>
 </p>
+
+## Technical Highlights
+
+- **Object Detection:** YOLOv5, motion blur & occlusion handling  
+- **OCR:** Scoreboard tracking and temporal alignment  
+- **Audio Analysis:** STFT, energy envelope detection, crowd cheer identification  
+- **Fusion Logic:** Multi-modal integration for high precision  
+- **Performance Optimization:** CPU-bound inference with batch processing; scalable to GPU
 
 ## Future Enhancements
 
@@ -51,3 +51,4 @@ GoalHighlighter.AI is a cutting-edge system designed to automatically detect goa
 - Integration with streaming platforms for live highlight generation  
 - Enhanced deep learning models for multi-camera broadcast scenarios  
 - Integration with VR/AR for better visualization techniques and analysis
+
